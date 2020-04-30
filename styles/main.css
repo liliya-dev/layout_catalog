@@ -115,17 +115,17 @@
     line-height: 19px; }
 
 .card__stars .card__star {
-  background: url(/images/star.svg) no-repeat center;
+  background: url(../images/star.svg) no-repeat center;
   width: 15px;
   height: 15px;
   margin-right: 4px; }
 
 .stars--5 .card__star,
 .stars--4 .card__star:nth-child(-n+4),
+.stars--3 .card__star:nth-child(-n+3),
 .stars--2 .card__star:nth-child(-n+2),
-.stars--1 .card__star:nth-child(1),
-.stars--3 .card__star:nth-child(-n+3) {
-  background-image: url(/images/star-active.svg); }
+.stars--1 .card__star:nth-child(1) {
+  background-image: url(../images/star-active.svg); }
 
 .card__button {
   -webkit-box-sizing: border-box;
