@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,41 +11,41 @@
   <body>
     <header class="header">
       <img
-        class="logo"
+        class="header__logo"
         src="images/logo.png"
         alt=""
       >
       <nav class="nav">
-        <ul class="menu">
-          <li class="menu_items">
-            <a class="is-active option" href = "#">Apple</a>
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a class="is-active navigation__item--link" href = "#">Apple</a>
           </li>
-          <li class="menu_items">
-            <a  class="option" href = "#">Samsung</a>
+          <li class="navigation__item">
+            <a  class="navigation__item--link" href = "#">Samsung</a>
           </li>
-          <li class="menu_items">
-            <a class="option" href = "#">Смартфоны и телефоны</a>
+          <li class="navigation__item">
+            <a class="navigation__item--link" href = "#">Смартфоны и телефоны</a>
           </li>
-          <li class="menu_items">
+          <li class="navigation__item">
             <a
-              class="option"
+              class="navigation__item--link"
               data-qa="nav-hover"
               href = "#"
             >
               Ноутбуки и компьютеры
             </a>
           </li>
-          <li class="menu_items">
-            <a class="option" href = "#">Гаджеты</a>
+          <li class="navigation__item">
+            <a class="navigation__item--link" href = "#">Гаджеты</a>
           </li>
-          <li class="menu_items">
-            <a class="option" href = "#">Планшеты</a>
+          <li class="navigation__item">
+            <a class="navigation__item--link" href = "#">Планшеты</a>
           </li>
-          <li class="menu_items">
-            <a class="option" href = "#">Фото</a>
+          <li class="navigation__item">
+            <a class="navigation__item--link" href = "#">Фото</a>
           </li>
-          <li class="menu_items">
-            <a class="option" href = "#">Видео</a>
+          <li class="navigation__item">
+            <a class="navigation__item--link" href = "#">Видео</a>
           </li>
         </ul>
       </nav>
@@ -53,276 +54,253 @@
       <div class="row">
         <div class="card" data-qa="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               data-qa="card-hover"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
-              href=""
-              >
-                Купить
-              </a>
-            </div>
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link" href=""
+            >
+              Купить
+            </a>
           </div>
         </div>
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
         <div class="card">
           <img
-          class="img"
-          src="/images/imac.jpeg"
-          alt=""
+            class="card__img"
+            src="images/imac.jpeg"
+            alt="Macbook"
           >
-          <div>
-            <p class="item_name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</p>
-            <p class="cod small_font">Код товара: 195434</p>
-            <div class="feedback">
-              <div class="stars">
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-                <div class="star"></div>
-              </div>
-              <p class="small_font">Отзывов: 5</p>
+          <h2 class="card__name">Моноблок APPLE A1419 iMac 27" Retina 5K (MNED2UA/A)</h2>
+          <p class="card__code small-text">Код товара: 195434</p>
+          <div class="card__feedback">
+            <div class="card__stars stars--4">
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
+              <div class="card__star"></div>
             </div>
-            <div class="price">
-              <p class="small_font">Цена:</p>
-              <p class="price_num">69 999 грн</p>
-            </div>
-            <div class="button">
-              <a
-              class="but"
-              data-qa="hover"
+            <p class="small-text">Отзывов: 5</p>
+          </div>
+          <div class="card__price">
+            <p class="small-text">Цена:</p>
+            <p class="card__amount">69 999 грн</p>
+          </div>
+          <div class="card__button">
+            <a
+              class="card__button-link"
               href=""
-              >
-                Купить
-              </a>
-            </div>
+            >
+              Купить
+            </a>
           </div>
         </div>
       </div>

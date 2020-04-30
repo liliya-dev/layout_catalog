@@ -1,0 +1,21 @@
+.header {
+  height: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 1024px;
+          flex: 1 0 1024px;
+  padding: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .header__logo {
+    margin-top: 10px;
+    width: 40px;
+    height: 40px; }
+
+/*# sourceMappingURL=header.css.map */
