@@ -38,6 +38,17 @@
     width: 40px;
     height: 40px; }
 
+@media screen and (max-width: 900px) and (min-width: 300px) {
+  .header {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .logo {
+    display: block;
+    width: 100%; } }
+
 .card__code, .card__feedback, .card__price {
   font-size: 11px;
   line-height: 13px; }
@@ -99,6 +110,16 @@
     right: 0;
     border-radius: 8px; }
 
+@media screen and (max-width: 900px) and (min-width: 300px) {
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .navigation__item {
+    display: block;
+    width: 100%; } }
+
 .card__code, .card__feedback, .card__price {
   font-size: 11px;
   line-height: 13px; }
@@ -120,7 +141,6 @@
   line-height: 19px; }
 
 .card {
-  width: 200px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #fff;
@@ -203,45 +223,25 @@ body {
   margin: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
 
-.row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.main {
+  margin-top: 50px;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 50px auto 51px; }
+  grid-template-columns: repeat(4, 200px);
+  grid-column-gap: 48px;
+  grid-row-gap: 51px; }
 
-@media screen and (min-width: 1024px) and (max-width: 1202px) {
-  .row {
-    width: 944px; } }
+@media screen and (min-width: 1201px) {
+  .main {
+    grid-template-columns: repeat(auto-fit, 200px); } }
 
-@media screen and (max-width: 900px) and (min-width: 300px) {
-  .header {
-    height: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .navigation__item {
-    display: block;
-    width: 100%; }
-  .logo {
-    display: block;
-    width: 100%; }
-  .row {
-    width: auto;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
-  .card {
-    margin: auto; } }
+@media screen and (max-width: 800px) {
+  .main {
+    grid-template-columns: repeat(auto-fit, 200px); } }
 
 /*# sourceMappingURL=main.css.map */
