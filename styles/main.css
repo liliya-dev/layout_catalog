@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:500&display=swap");
-.navigation__item--link, .card__name {
+.card__code, .card__feedback, .card__price {
+  font-size: 11px;
+  line-height: 13px; }
+
+.navigation__link, .card__name {
   font-size: 12px;
   line-height: 15px;
   color: #000;
@@ -34,7 +38,11 @@
     width: 40px;
     height: 40px; }
 
-.navigation__item--link, .card__name {
+.card__code, .card__feedback, .card__price {
+  font-size: 11px;
+  line-height: 13px; }
+
+.navigation__link, .card__name {
   font-size: 12px;
   line-height: 15px;
   color: #000;
@@ -69,19 +77,19 @@
     display: inline-block;
     position: relative;
     margin-right: 20px; }
-    .navigation__item--link {
-      text-transform: uppercase;
-      display: inline-block;
-      padding-top: 22.5px;
-      padding-bottom: 22.5px; }
-      .navigation__item--link:hover {
-        color: #00acdc; }
+  .navigation__link {
+    text-transform: uppercase;
+    display: inline-block;
+    padding-top: 22.5px;
+    padding-bottom: 22.5px; }
+    .navigation__link:hover {
+      color: #00acdc; }
   .navigation :last-child {
     margin-right: 0; }
 
-.navigation__item--link.is-active {
+.navigation__link.is-active {
   color: #00acdc; }
-  .navigation__item--link.is-active::after {
+  .navigation__link.is-active::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -91,7 +99,11 @@
     right: 0;
     border-radius: 8px; }
 
-.navigation__item--link, .card__name {
+.card__code, .card__feedback, .card__price {
+  font-size: 11px;
+  line-height: 13px; }
+
+.navigation__link, .card__name {
   font-size: 12px;
   line-height: 15px;
   color: #000;
@@ -190,10 +202,6 @@ h2,
 body {
   margin: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif; }
-
-.small-text {
-  font-size: 11px;
-  line-height: 13px; }
 
 .row {
   display: -webkit-box;

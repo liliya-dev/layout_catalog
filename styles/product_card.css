@@ -1,3 +1,7 @@
+.card__code, .card__feedback, .card__price {
+  font-size: 11px;
+  line-height: 13px; }
+
 .card__name {
   font-size: 12px;
   line-height: 15px;
