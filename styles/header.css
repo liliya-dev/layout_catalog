@@ -20,12 +20,12 @@
 @media screen and (max-width: 900px) and (min-width: 300px) {
   .header {
     height: auto;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  .logo {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+  .header__logo {
     display: block;
-    width: 100%; } }
+    width: 60px;
+    height: 60px;
+    margin-right: 25px; } }
 
 /*# sourceMappingURL=header.css.map */

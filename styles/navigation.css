@@ -54,6 +54,9 @@
             flex-direction: column; }
   .navigation__item {
     display: block;
-    width: 100%; } }
+    height: 40px;
+    width: 100%; }
+  .navigation__link {
+    display: block; } }
 
 /*# sourceMappingURL=navigation.css.map */
