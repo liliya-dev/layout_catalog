@@ -43,11 +43,11 @@
     height: auto;
     -ms-flex-pack: distribute;
         justify-content: space-around; }
-  .header__logo {
-    display: block;
-    width: 60px;
-    height: 60px;
-    margin-right: 25px; } }
+    .header__logo {
+      display: block;
+      width: 60px;
+      height: 60px;
+      margin-right: 25px; } }
 
 .card__code, .card__feedback, .card__price {
   font-size: 11px;
